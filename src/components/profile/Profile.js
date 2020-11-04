@@ -21,9 +21,9 @@ export default function Profile(props) {
         <h2>About</h2>
         <p>I am a previous medical student that decided to pursue my passion for technology and development.
           For me, medicine and programming are very similar. Both careers can be described as a craft with an infinite skill ceiling.
-          To be considered competent, you must consistently plan, execute, and reflect on how you can improve.
-          As someone who has a deep passion for competition, this process is extremely engaging and motivates me to try my hardest.</p>
-        <p>In the short amount of time that I have learnt programming, I have created a few things that I am proud of.
+          To truly excel, you must be able to continuously learn new information, and adapt to changes in the field.
+          As someone whose basic qualities are curiousity and drive, this process is extremely engaging and motivates me to try my hardest.</p>
+        <p>In the short amount of time that I have learnt development, I have created a few things that I am proud of.
           I made a travel planner that filled a hole in my planning needs, a weather app that provides me with more information than the one on my phone,
            and a Pinterest-clone for educational resources. I know this is only the start and I am keen to develop my skills.</p>
         <p>I am excited to continue to create and I hope you follow me on my creative journey. </p>
