@@ -6,6 +6,14 @@ export default function WorkExp(props) {
     <div id="work-exp">
       <h2>Work Experience</h2>
       <div className="exp-list">
+      <div className="exp">
+          <h4>Junior Software Developer: CarltonOne Engagement</h4>
+          <p>2020-Current</p>
+          <ul>
+            <li>I am an automation and systems architecture software developer for the Business Process & Intelligence department. I work with other developers to create design, develop, and test automations that provide better visibility and control of financial data. I personally came up with and developed an architecture approach using Python that significantly decreased automation run times and increased data reliability.</li>
+            <li>Tech Stack: Python, SQL Management Server, Navicat GUI, Git/BitBucket, Automate Enterprise, Azure.</li>
+          </ul>
+        </div>
         <div className="exp">
           <h4>Resturant Manager: Sitara Resturant</h4>
           <p>2018-2019</p>
