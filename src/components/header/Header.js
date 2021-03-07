@@ -1,22 +1,25 @@
 import './Header.css';
 import React, { useState } from 'react';
-import hamburger from './hamburger.png';
+import hamburger from './menu.svg';
 
-export default function Header() {
+export default function Header(props) {
   const [headerState, setHeaderState] = useState("header-expanded");
 
   function hamburgerOnClick(headerState) {
     if (headerState === 'header-expanded') {
       setHeaderState(state => "header-collapsed");
+      props.setExpand(state => "content-wrapper-expanded");
+
     } else {
       setHeaderState(state => "header-expanded");
+      props.setExpand(state => "content-wrapper");
     }
   }
 
   return (
-    <div className={headerState}>
+    <div className="header">
       <span className="hamburger-button" onClick={() => hamburgerOnClick(headerState)}><img alt="" src={hamburger}></img></span>
-      <div className="nav">
+      <div className={headerState}>
         <h2>Jashan Brar</h2>
         <ul className="section-list">
           <li>
