@@ -6,11 +6,19 @@ export default function WorkExp(props) {
     <div id="work-exp">
       <h2>Work Experience</h2>
       <div className="exp-list">
-      <div className="exp">
-          <h4>Junior Software Developer: CarltonOne Engagement</h4>
-          <p>2020-Current</p>
+        <div className="exp">
+          <h4>Full Stack Web Developer Intern</h4>
+          <p>Dec 2020-Current</p>
           <ul>
-            <li>I am an automation and systems architecture software developer for the Business Process & Intelligence department. I work with other developers to create design, develop, and test automations that provide better visibility and control of financial data. I personally came up with and developed an architecture approach using Python that significantly decreased automation run times and increased data reliability.</li>
+            <li>Building TwentyBN's new sales website using React and Ruby on Rails.</li>
+            <li>Tech Stack: React, Ruby on Rails, AWS, Redux.</li>
+          </ul>
+        </div>
+        <div className="exp">
+          <h4>Junior Software Developer: CarltonOne Engagement</h4>
+          <p>June 2020-Dec 2020</p>
+          <ul>
+            <li>Lead development of architecture that processes invoices from hundreds of vendors and converts them into consistent text files, resulting in a hundred fold reduction in processing time (Python). Worked within a team of developers to optimize efficiency of data extraction.</li>
             <li>Tech Stack: Python, SQL Management Server, Navicat GUI, Git/BitBucket, Automate Enterprise, Azure.</li>
           </ul>
         </div>
