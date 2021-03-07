@@ -89,13 +89,13 @@ export default function Profile(props) {
               <p>SQL</p>
             </li>
             <li>
-              <p>MongoDB</p>
-            </li>
-            <li>
-              <p>GraphQL</p>
-            </li>
-            <li>
               <p>Google Cloud</p>
+            </li>
+            <li>
+              <p>AWS</p>
+            </li>
+            <li>
+              <p>MongoDB</p>
             </li>
           </ul>
         </div>
