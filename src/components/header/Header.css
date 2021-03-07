@@ -1,0 +1,9 @@
+.hamburger-button {
+  display: block;
+  top: 0;
+  right: 0;
+  float: right;
+  margin-top: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
