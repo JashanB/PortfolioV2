@@ -1,23 +1,28 @@
-@media only screen and (min-width: 1011px){
+
   .App {
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 100%;
   }
+.header-collapsed {
+  display: none;
+  transition: 0.4s ease-in-out;
 
-.nav {
+}
+.header-expanded {
   position: fixed;
   left: 0;
-  width: 18%;
+  width: 250px;
   background-color: #01182b;
   height: 100vh;
   display: block;
   color: white;
   font-family: Helvetica;
+  transition: 0.4s ease-in-out;
 }
 
-.nav h2 {
+.header-expanded h2 {
   text-align: center;
   border-bottom: 1px solid white;
   margin-left: 2%;
@@ -25,14 +30,14 @@
   font-size: 220%;
   margin-bottom: 2%;
 }
-.nav ul {
+.header-expanded ul {
   list-style: none;
   /* margin: 0; */
   margin-left: -7%;
   position: relative;
   }
   
-  .nav li {
+  .header-expanded li {
   text-indent: 20px;
   line-height: 40px; 
   font-family: Helvetica;
@@ -40,17 +45,17 @@
   text-align: left;
   }
   
-  .nav a {
+  .header-expanded a {
     display: block;
     text-decoration: none;
     color: #999999;
   }
   
-  .nav a:hover {
+  .header-expanded a:hover {
     color: white;
   }
   
-  .nav a:active {
+  .header-expanded a:active {
     color: white;
   }
   
@@ -60,68 +65,29 @@
   padding-top: 2.5%;
   font-family: Helvetica;
 }
-}
-
-@media only screen and (max-width: 1010px){
-.App {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.nav {
-position: fixed;
-height: 14%;
-width: 100%;
-background-color: #01182b;
-display: inline-block;
-color: white;
-overflow: hidden;
-font-family: Helvetica;
-text-align: left;
-padding-left: 0%;
-}
-
-.nav h2 {
-  display: none;
-}
-
-.nav ul {
-list-style: none;
-}
-
-.nav li {
-text-indent: 20px;
-line-height: 40px; 
-font-family: Helvetica;
-font-size: 18px;
-text-align: center;
-display: inline-block;
-}
-
-.nav a {
-  display: block;
-  text-decoration: none;
-  color: #999999;
-}
-
-.nav a:hover {
-  color: white;
-}
-
-.nav a:active {
-  color: white;
-}
-
-.project-list {
-  display: none;
-}
-.content-wrapper {
-  /* display: block; */
-  /* position: relative; */
+.content-wrapper-expanded {
   text-align: center;
-  margin-top: 15%;
+  /* margin-left: 18%; */
   padding-top: 2.5%;
   font-family: Helvetica;
 }
+.content-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1250px;
+}
+@media only screen and (max-width: 1080px){
+  .content-wrapper, .content-wrapper-expanded  {
+    margin: 0;
+  }
+  
+}
+@media only screen and (max-width: 1010px){
+/* .App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */
+
 }
